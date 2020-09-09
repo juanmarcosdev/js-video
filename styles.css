@@ -222,3 +222,28 @@ body {
     flex-direction: column;
   }
 }
+
+.notfound {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+}
+
+.notfound__number {
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.notfound__text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
